@@ -1,6 +1,5 @@
 package com.sanyue.sanyueaiagent;
 
-import com.alibaba.cloud.ai.dashscope.api.DashScopeApi;
 import jakarta.annotation.Resource;
 import org.springframework.ai.chat.messages.AssistantMessage;
 import org.springframework.ai.chat.model.ChatModel;
@@ -9,8 +8,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 // 取消注释即可在 SpringBoot 项目启动时执行
-@Component
-public class SpringAiAiInvoke implements CommandLineRunner {
+//@Component
+public class SpringAiInvoke implements CommandLineRunner {
 
     @Resource
     private ChatModel dashscopeChatModel;
